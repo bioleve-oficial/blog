@@ -24,3 +24,38 @@ $(document).ready(function () {
         $(this).addClass("active-filter").siblings().removeClass("active-filter")
     });
 });
+
+//Script opção 1 de modal
+const button = document.querySelector("button")
+// const modal = document.querySelector("dialog")
+const buttonClose = document.querySelector("dialog button")
+
+button.onclick = function() {
+    modal.showModal()
+}
+
+buttonClose.onclick = function() {
+    modal.close()
+}
+
+//Script opção 2 de modal
+const modal = document.querySelector('.modal-container')
+
+function openModal() {
+  modal.classList.add('active')
+}
+
+function closeModal() {
+  modal.classList.remove('active')
+}
+
+const modal2 = document.querySelector('.modal-container2')
+
+function openModal() {
+    modal.classList.add('active')
+  }
+  
+  function closeModal() {
+    modal.classList.remove('active')
+  }
+  

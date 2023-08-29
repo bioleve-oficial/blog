@@ -16,6 +16,9 @@
     <header>
         <div class="nav container">
             <a href="index.html" class="logo"> Blog <span>Bioleve</span></a>
+            <a href="index.html" class="login">IN MEMORIAN</a>
+            <a href="index.html" class="login">INFO DPTOS</a>
+            <a href="https://192.168.0.8/suporte/upload/login.php" target="_blank" class="login">Ticket</a>
             <a href="index.html" class="login">TOTVS</a>
         </div>
     </header>
@@ -61,20 +64,28 @@
     <div class="post container">
         <!-- Post 1 -->
         <div class="post-box tecnologia">
-            <img src="images/FAS.png" alt="" class="post-img">
-            <h2 class="category">Tecnologia</h2>
+            
+           <img src="images/FAS.png" alt="" class="post-img">
+            <h2 class="category">Tecnologia</h2>    
             <a href="#" class="post-title">Criação do Blog TI</a>
             <span class="post-date">25 de Agosto de 2023</span>
             <p class="post-description">Pensando em todos os colaboradores, a iniciativa do TI vem com a ideia da
                 criação do Blog.</p>
             <div class="profile">
                 <img src="images/bioleve-na-mao.jpg" alt="" class="profile-img">
-                <span class="profile-name">Depto TI</span>
+                <span class="profile-name">Depto TI</span> <!-- Opção 1 de modal --><button>Ver mais</button>
+                <dialog> Pensando em todos os colaboradores, a iniciativa do TI vem com a ideia da
+                    criação do Blog. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, voluptates!
+    
+                    <button>Fechar</button>
+    
+                </dialog>
             </div>
         </div>
-
+   
         <!-- Post 2 -->
         <div class="post-box tecnologia">
+            
             <img src="images/img2.jpg" alt="" class="post-img">
             <h2 class="category">Tecnologia</h2>
             <a href="#" class="post-title">TESTE2</a>
@@ -83,22 +94,57 @@
                 criação do Blog.</p>
             <div class="profile">
                 <img src="images/bioleve-na-mao.jpg" alt="" class="profile-img">
-                <span class="profile-name">Depto TI</span>
+                <span class="profile-name">Depto TI</span> 
+            </div>
+
+            <!-- Opção 2 de modal -->
+            <button class="btnOpenModal" onclick="openModal()">Ver mais</button>
+            <div class="modal-container"> 
+            <div class="modal">
+                <h2>TESTE2</h2>
+                <hr/>
+                <span>
+                    Pensando em todos os colaboradores, a iniciativa do TI vem com a ideia da
+                    criação do Blog.
+                </span>
+                <hr/>
+                <div class="btns">
+                    <button class="btnClose" onclick="closeModal()">Fechar</button>
+                </div>
+            </div>
             </div>
         </div>
+
         <!-- Post 3 -->
         <div class="post-box administrativo">
             <img src="images/img3.jpg" alt="" class="post-img">
             <h2 class="category">Administrativo</h2>
             <a href="#" class="post-title">TESTE3</a>
             <span class="post-date">28 de Agosto de 2023</span>
-            <p class="post-description">Pensando em todos os colaboradores, a iniciativa do TI vem com a ideia da
-                criação do Blog.</p>
+            <p class="post-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos ducimus aperiam cum iste praesentium aut.</p>
             <div class="profile">
                 <img src="images/bioleve-na-mao.jpg" alt="" class="profile-img">
                 <span class="profile-name">Dpto Adm</span>
             </div>
+      
+
+        <!-- Modal -->
+        <button class="btnOpenModal" onclick="openModal()">Ver mais</button>
+            <div class="modal-container2"> 
+            <div class="modal">
+                <h2>TESTE3</h2>
+                <hr/>
+                <span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, quia perspiciatis consectetur labore natus unde aperiam incidunt temporibus libero ipsum repudiandae, commodi delectus quae rerum provident enim. Corporis magnam odio sapiente dolorum excepturi hic dicta modi, aperiam debitis veniam ratione consequatur temporibus explicabo quisquam cum aspernatur magni est sit voluptatum.
+                </span>
+                <hr/>
+                <div class="btns">
+                    <button class="btnClose" onclick="closeModal()">Fechar</button>
+                </div>
+            </div>
+            </div>
         </div>
+
         <!-- Post 4 -->
         <div class="post-box fabrica">
             <img src="images/img4.jpg" alt="" class="post-img">
@@ -194,10 +240,23 @@
                 </ul>
             </div>
             <div class="sec quicklinks">
-                <h2>Links rápidos</h2>
-                <ul>
-                    <li><a href="https://192.168.0.8/suporte/upload/login.php">Ticket</a></li>
-                    <li><a href="#">Iníco</a></li>
+                <h2>Fale conosco</h2>
+            <ul>
+                    <li><p>Lindóia:</p>
+                        <a href="mailto:lucas.moraes@bioleve.com.br"> Lucas - 9840 </a>
+                        <br>
+                        <a href="mailto:rodrigo.carmo@bioleve.com.br"> Rodrigo - 9844</a>
+                        <br>
+                        <a href="mailto:gustavo.medeiros@bioleve.com.br"> Gustavo - 9844</a>  
+                    </li>
+                    <br>
+                    <li><p>SBC</p>
+                        <a href="mailto:alexandre@bioleve.com.br"> Alexandre - 209 </a>
+                        <br> 
+                        <a href="mailto:fernando@bioleve.com.br"> Fernando - 210 </a> 
+                        <br>
+                        <a href="mailto:julio@bioleve.com.br"> Júlio - 210 </a> 
+                    </li>
                 </ul>
             </div>
             
