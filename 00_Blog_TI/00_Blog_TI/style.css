@@ -215,19 +215,7 @@ header.shadow .logo{
     border-radius: 0.5rem;
 }
 
-/* Modal 1 */
-dialog::backdrop {
-    background-color: rgb(0 0 0 / .5);
-}
-
-dialog {
-    border: none;
-    border-radius: .5rem;
-    box-shadow: 0 0 1em rgb( 0 0 0 / .3);
-    width: 80%;
-}
-
-/* Modal 2*/
+/*Início modal post 1*/
 .btnOpenModal {
     cursor: pointer;
 }
@@ -237,35 +225,34 @@ hr {
     border-top: 1px solid;
 }
 
-
-/* Verificar vínculo com JS */
-.modal-container {
-    width: 50vw;
+.modal-container1 {
+    width: 60vw;
     position: fixed;
-    top: 30px;
+    top: 80px;
     display: none;
     z-index: 999;
-    justify-content: center;
+    justify-content: start;
 }
 
-.modal {
+.modal1 {
     display: flex;
     flex-direction: column;
     padding: 30px;
-    background-color: white;
+    background-color: rgb(217, 203, 203);
     border-radius: 10px;
     width: 50%;
 }
 
-.active {
+.active1 {
     display: flex;
 }
 
-.active .modal {
+.active1 .modal1 {
     animation: modal .4s
 }
 
-@keyframes modal {
+/* Animação modal 1*/
+@keyframes modal1 {
     from {
     opacity: 0;
     transform: translate3d(0, -60px, 0);
@@ -274,11 +261,6 @@ hr {
     transform: translate3d(0, 0, 0);
     }
 }
-
-/*span {
-    margin: 10px auto;
-}
-*/
 
 .btns {
     display: flex;
@@ -295,17 +277,14 @@ hr {
     cursor: pointer;
 }
 
-.btnOK {
-    background-color: blue;
-}
-
 .btnClose {
     background-color: brown;
 }
+/* Fim modal post 1 */
 
-/* Responsivo */
+/* Início responsividade modal 1 */
 @media (max-width: 500px) {
-    .modal {
+    .modal1 {
         padding: 10px;
         width: 80%;
     }
@@ -313,6 +292,88 @@ hr {
         font-size: smaller;
     }
 }
+/*Fim responsividade modal 1*/
+
+/* ----------------------------------------------------------- */
+
+/*Início modal post 2*/
+.btnOpenModal {
+    cursor: pointer;
+}
+
+hr {
+    border: 0px;
+    border-top: 1px solid;
+}
+
+.modal-container2 {
+    width: 60vw;
+    position: fixed;
+    top: 80px;
+    display: none;
+    z-index: 999;
+    justify-content:start;
+}
+
+.modal2 {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: rgb(217, 203, 203);
+    border-radius: 10px;
+    width: 50%;
+}
+
+.active2 {
+    display: flex;
+}
+
+.active2 .modal2 {
+    animation: modal .4s
+}
+
+/* Animação modal 2*/
+@keyframes modal2 {
+    from {
+    opacity: 0;
+    transform: translate3d(0, -60px, 0);
+} to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+    }
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.btns button {
+    font-size: medium;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.btnClose {
+    background-color: brown;
+}
+/*Fim modal post 2*/
+
+/*Início responsividade modal 2*/
+@media (max-width: 500px) {
+    .modal2 {
+        padding: 10px;
+        width: 80%;
+    }
+    span, .btns button {
+        font-size: smaller;
+    }
+}
+/*Fim responsividade modal 2*/
 
 .category{
     font-size: 0.9rem;

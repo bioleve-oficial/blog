@@ -26,36 +26,27 @@ $(document).ready(function () {
 });
 
 //Script opção 1 de modal
-const button = document.querySelector("button")
-// const modal = document.querySelector("dialog")
-const buttonClose = document.querySelector("dialog button")
+//Na pasta Backup 2
 
-button.onclick = function() {
-    modal.showModal()
+//Script modal post 1
+const modal1 = document.querySelector('.modal-container1')
+
+function openModal1() {
+  modal1.classList.add('active1')
 }
 
-buttonClose.onclick = function() {
-    modal.close()
+function closeModal1() {
+  modal1.classList.remove('active1')
 }
 
-//Script opção 2 de modal
-const modal = document.querySelector('.modal-container')
 
-function openModal() {
-  modal.classList.add('active')
-}
-
-function closeModal() {
-  modal.classList.remove('active')
-}
-
+//Script modal post 2
 const modal2 = document.querySelector('.modal-container2')
 
-function openModal() {
-    modal.classList.add('active')
-  }
-  
-  function closeModal() {
-    modal.classList.remove('active')
-  }
-  
+function openModal2() {
+  modal2.classList.add('active2')
+}
+
+function closeModal2() {
+  modal2.classList.remove('active2')
+}
