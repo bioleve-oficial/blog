@@ -238,7 +238,7 @@ hr {
     display: flex;
     flex-direction: column;
     padding: 30px;
-    background-color: rgb(217, 203, 203);
+    background-color: rgb(208, 203, 217);
     border-radius: 10px;
     width: 50%;
 }
@@ -278,7 +278,7 @@ hr {
 }
 
 .btnClose {
-    background-color: brown;
+    background-color:rgba(0, 87, 168);
 }
 /* Fim modal post 1 */
 

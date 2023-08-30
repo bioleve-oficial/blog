@@ -28,7 +28,7 @@ $(document).ready(function () {
 //Script opção 1 de modal
 //Na pasta Backup 2
 
-//Script modal post 1
+//Inicio do modal post 1
 const modal1 = document.querySelector('.modal-container1')
 
 function openModal1() {
@@ -38,9 +38,9 @@ function openModal1() {
 function closeModal1() {
   modal1.classList.remove('active1')
 }
+//Fim do modal post 1
 
-
-//Script modal post 2
+//Inicio do modal post 2
 const modal2 = document.querySelector('.modal-container2')
 
 function openModal2() {
@@ -50,3 +50,4 @@ function openModal2() {
 function closeModal2() {
   modal2.classList.remove('active2')
 }
+//Fim do modal post 2
