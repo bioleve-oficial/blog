@@ -66,10 +66,12 @@ header.shadow .logo{
     color: var(--text-color);
 }
 
+/* Botões navbar */
 .nav{
-    display:flex;
+    display:inline-block;    
     align-items:center;
-    justify-content: space-between;
+    justify-content:center;
+    margin-left: 500px;
     padding: 18px 0;
 }
 
@@ -100,7 +102,7 @@ header.shadow .logo{
 .home{
     width: 100%;
     min-height: 440px;
-    background: url("images/flamin.jpg");
+    background: #222;
     display: grid;
     justify-content: center;
     align-items: center;
@@ -177,13 +179,18 @@ header.shadow .logo{
     justify-content: center;
     align-items: center;
     column-gap: 1.5rem;
-    margin-top: 2rem !important;
+    margin-top: 1rem !important;
 }
 
 .filter-item{
     font-size: 0.9rem;
     font-weight: 500;
     cursor: pointer;
+}
+
+.title-post{
+    margin-top: 50px;
+    margin-left: 565px;
 }
 
 .active-filter{
