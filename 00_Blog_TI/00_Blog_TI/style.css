@@ -563,10 +563,15 @@ footer p{
         width: 100%;
     }
 
-.details{
+.details {
     cursor: pointer;
 }
 
+}
+
+.td {
+    color: #f1e9e9;
+    background-color: rgba(0, 87, 168);;
 }
 
 
