@@ -180,6 +180,7 @@ header.shadow .logo{
     align-items: center;
     column-gap: 1.5rem;
     margin-top: 1rem !important;
+    margin-bottom: 30px;
 }
 
 .filter-item{
@@ -189,7 +190,7 @@ header.shadow .logo{
 }
 
 .title-post{
-    margin-top: 50px;
+    margin-top: 40px;
     margin-left: 565px;
 }
 
@@ -563,11 +564,12 @@ footer p{
         width: 100%;
     }
 
+}
+
 .details {
     cursor: pointer;
 }
 
-}
 
 .td {
     color: #f1e9e9;
