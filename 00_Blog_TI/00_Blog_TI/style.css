@@ -562,7 +562,11 @@ footer p{
     footer .footer-container .contactBx{
         width: 100%;
     }
+
+.details{
+    cursor: pointer;
 }
 
+}
 
 
