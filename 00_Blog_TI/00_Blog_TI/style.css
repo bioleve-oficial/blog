@@ -576,4 +576,9 @@ footer p{
     background-color: rgba(0, 87, 168);;
 }
 
+.table-ramais {
+    width: 100%;
+    float: right;
+    box-sizing: border-box;
+}
 
