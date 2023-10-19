@@ -101,7 +101,7 @@ header.shadow .logo{
 .home{
     width: 100%;
     min-height: 440px;
-    background: #222;
+    background: url(images/flamin.jpg);
     display: grid;
     justify-content: center;
     align-items: center;
