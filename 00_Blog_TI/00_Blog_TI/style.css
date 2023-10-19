@@ -213,12 +213,6 @@ header.shadow .logo{
     box-shadow: 0 4px 14px hsl(35deg 25% 15% / 10%);
     padding: 15px;
     border-radius: 0.5rem;
-    cursor: pointer;
-    transition: all 0.6s ease-in-out 0s;
-}
-
-.post-box:hover{
-    transform:scale(0.9); 
 }
 
 .post-img{
@@ -264,6 +258,11 @@ header.shadow .logo{
     overflow: hidden;
 }
 
+.btn-post{
+    padding: 1px;
+    margin-left: 240px;
+}
+
 .profile{
     display: flex;
     align-items: center;
@@ -289,7 +288,7 @@ footer{
     width: 100%;
     height: auto;
     padding: 50px 100px;
-    margin-top: 3rem;
+    margin-top: 5rem;
     background: #111;
     display: flex;
     font-family: sans-serif;
@@ -298,9 +297,10 @@ footer{
 
 .footer-container{
     display: flex;
+    margin-left: 150px; 
     justify-content: space-between;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction:row;
 }
 
 .footer-container .sec{
