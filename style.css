@@ -143,11 +143,13 @@ header.shadow .logo{
     color: #111;
     font-size: 2rem;
     margin-bottom: 10px;
+    width: 50vh;
 }
 
 .title-text{
     color: #111;
     font-size: 1em;
+    width: 50vh;
 }
 
 .about .imgBx{
