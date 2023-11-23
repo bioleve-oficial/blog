@@ -313,7 +313,7 @@ footer{
 
 .footer-container{
     display: flex;
-    margin-left: 150px; 
+    margin-left: 50px; 
     justify-content: space-between;
     flex-wrap: wrap;
     flex-direction:row;
