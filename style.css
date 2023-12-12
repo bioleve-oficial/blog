@@ -91,6 +91,7 @@ header.shadow .logo{
     border-radius: 0px;
     background: var(--second-color);
     color: var(--bg-color);
+    transition: .5s;
 }
 
 .login:hover{
