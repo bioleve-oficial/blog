@@ -91,12 +91,12 @@ header.shadow .logo{
     border-radius: 0px;
     background: var(--second-color);
     color: var(--bg-color);
-    transition: .5s;
+    transition: .6s;
 }
 
 .login:hover{
     background: hsl(199, 94%, 13%);
-    transition: .5s;
+    transition: .6s;
 }
 
 .home{
@@ -368,7 +368,7 @@ footer p{
     margin-right: 10px;
     text-decoration: none;
     border-radius: 4px;
-    transition: .5s;
+    transition: .6s;
 }
 
 .sci li a:hover{
